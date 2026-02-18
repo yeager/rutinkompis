@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Rutinkompis
+Name[sv]=Rutinkompis
+Comment=Step-by-step visual routine guides for children with autism
+Comment[sv]=Steg-för-steg rutinguider med bilder
+Exec=rutinkompis
+Icon=rutinkompis
+Terminal=false
+Type=Application
+Categories=Education;Accessibility;
