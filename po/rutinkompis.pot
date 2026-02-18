@@ -1,0 +1,114 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-18 10:19+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/rutinkompis/window.py:11
+msgid "Morning"
+msgstr ""
+
+#: src/rutinkompis/window.py:12
+msgid "Wake up"
+msgstr ""
+
+#: src/rutinkompis/window.py:13
+msgid "Go to toilet"
+msgstr ""
+
+#: src/rutinkompis/window.py:14 src/rutinkompis/window.py:23
+msgid "Brush teeth"
+msgstr ""
+
+#: src/rutinkompis/window.py:15
+msgid "Get dressed"
+msgstr ""
+
+#: src/rutinkompis/window.py:16
+msgid "Eat breakfast"
+msgstr ""
+
+#: src/rutinkompis/window.py:17
+msgid "Pack bag"
+msgstr ""
+
+#: src/rutinkompis/window.py:18
+msgid "Put on shoes"
+msgstr ""
+
+#: src/rutinkompis/window.py:20
+msgid "Evening"
+msgstr ""
+
+#: src/rutinkompis/window.py:21
+msgid "Eat dinner"
+msgstr ""
+
+#: src/rutinkompis/window.py:22
+msgid "Take a bath"
+msgstr ""
+
+#: src/rutinkompis/window.py:24
+msgid "Read a book"
+msgstr ""
+
+#: src/rutinkompis/window.py:25
+msgid "Go to bed"
+msgstr ""
+
+#: src/rutinkompis/window.py:27
+msgid "School"
+msgstr ""
+
+#: src/rutinkompis/window.py:28
+msgid "Take out books"
+msgstr ""
+
+#: src/rutinkompis/window.py:29
+msgid "Do exercises"
+msgstr ""
+
+#: src/rutinkompis/window.py:30
+msgid "Ask for help"
+msgstr ""
+
+#: src/rutinkompis/window.py:31
+msgid "Pack up"
+msgstr ""
+
+#: src/rutinkompis/window.py:39 src/rutinkompis/main.py:46
+msgid "Rutinkompis"
+msgstr ""
+
+#: src/rutinkompis/window.py:54
+msgid "Toggle dark/light theme"
+msgstr ""
+
+#: src/rutinkompis/window.py:59
+msgid "Keyboard Shortcuts"
+msgstr ""
+
+#: src/rutinkompis/window.py:60
+msgid "About Rutinkompis"
+msgstr ""
+
+#: src/rutinkompis/window.py:61
+msgid "Quit"
+msgstr ""
+
+#: src/rutinkompis/window.py:184
+msgid "All done! Great job!"
+msgstr ""
