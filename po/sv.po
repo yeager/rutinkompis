@@ -1,0 +1,118 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Daniel Nylander <po@danielnylander.se>, 2026
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-18 10:19+0100\n"
+"PO-Revision-Date: 2026-02-18 09:21+0000\n"
+"Last-Translator: Daniel Nylander <po@danielnylander.se>, 2026\n"
+"Language-Team: Swedish (https://app.transifex.com/danielnylander/teams/304959/sv/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sv\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/rutinkompis/window.py:11
+msgid "Morning"
+msgstr "Morgon"
+
+#: src/rutinkompis/window.py:12
+msgid "Wake up"
+msgstr "Vakna"
+
+#: src/rutinkompis/window.py:13
+msgid "Go to toilet"
+msgstr "Gå på toaletten"
+
+#: src/rutinkompis/window.py:14 src/rutinkompis/window.py:23
+msgid "Brush teeth"
+msgstr "Borsta tänder"
+
+#: src/rutinkompis/window.py:15
+msgid "Get dressed"
+msgstr "Klä på sig"
+
+#: src/rutinkompis/window.py:16
+msgid "Eat breakfast"
+msgstr "Äta frukost"
+
+#: src/rutinkompis/window.py:17
+msgid "Pack bag"
+msgstr "Packa väskan"
+
+#: src/rutinkompis/window.py:18
+msgid "Put on shoes"
+msgstr "Ta på sig skor"
+
+#: src/rutinkompis/window.py:20
+msgid "Evening"
+msgstr "Kväll"
+
+#: src/rutinkompis/window.py:21
+msgid "Eat dinner"
+msgstr "Äta middag"
+
+#: src/rutinkompis/window.py:22
+msgid "Take a bath"
+msgstr "Ta ett bad"
+
+#: src/rutinkompis/window.py:24
+msgid "Read a book"
+msgstr "Läsa en bok"
+
+#: src/rutinkompis/window.py:25
+msgid "Go to bed"
+msgstr "Gå till sängs"
+
+#: src/rutinkompis/window.py:27
+msgid "School"
+msgstr "Skola"
+
+#: src/rutinkompis/window.py:28
+msgid "Take out books"
+msgstr "Låna böcker"
+
+#: src/rutinkompis/window.py:29
+msgid "Do exercises"
+msgstr "Gör övningar"
+
+#: src/rutinkompis/window.py:30
+msgid "Ask for help"
+msgstr "Fråga efter hjälp"
+
+#: src/rutinkompis/window.py:31
+msgid "Pack up"
+msgstr "Packa upp"
+
+#: src/rutinkompis/window.py:39 src/rutinkompis/main.py:46
+msgid "Rutinkompis"
+msgstr "Rutinkompis"
+
+#: src/rutinkompis/window.py:54
+msgid "Toggle dark/light theme"
+msgstr "Växla mörkt/ljust tema"
+
+#: src/rutinkompis/window.py:59
+msgid "Keyboard Shortcuts"
+msgstr "Tangentbordsgenvägar"
+
+#: src/rutinkompis/window.py:60
+msgid "About Rutinkompis"
+msgstr "Om Rutinkompis"
+
+#: src/rutinkompis/window.py:61
+msgid "Quit"
+msgstr "Avsluta"
+
+#: src/rutinkompis/window.py:184
+msgid "All done! Great job!"
+msgstr "Allt klart! Bra jobbat!"
