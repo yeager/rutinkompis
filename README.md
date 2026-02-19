@@ -2,11 +2,25 @@
 
 Step-by-step visual routine guides for children with autism.
 
+> **Målgrupp / Target audience:** Barn och vuxna med autism, ADHD, intellektuell
+> funktionsnedsättning och andra kognitiva funktionsnedsättningar som behöver
+> steg-för-steg visuellt stöd för dagliga rutiner. Perfekt för morgonrutiner,
+> kvällsrutiner och skolrutiner. Även användbart i LSS-verksamhet och habilitering.
+>
+> **For:** Children and adults with autism spectrum disorder (ASD), ADHD, intellectual
+> disabilities, and other cognitive disabilities who need step-by-step visual routine
+> guides. Perfect for morning routines, evening routines, and school routines. Also
+> useful in disability services and rehabilitation settings.
+
 ![Screenshot](screenshots/screenshot.png)
 
 ## Features
 
-Create and follow routines (morning, evening, school). Each step has image + text + timer. Mark steps complete. Star rewards for motivation.
+- Create and follow routines (morning, evening, school)
+- Each step has image + text + timer
+- Mark steps complete with visual feedback
+- Star rewards for motivation
+- Dark/light theme toggle
 
 ## Requirements
 
