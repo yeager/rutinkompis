@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: rutinkompis\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-20 21:04+0100\n"
+"POT-Creation-Date: 2026-02-20 21:09+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -89,7 +89,7 @@ msgstr ""
 msgid "Pack up"
 msgstr ""
 
-#: src/rutinkompis/window.py:44 src/rutinkompis/main.py:231
+#: src/rutinkompis/window.py:44 src/rutinkompis/main.py:262
 msgid "Rutinkompis"
 msgstr ""
 
@@ -101,7 +101,7 @@ msgstr ""
 msgid "Export Routine"
 msgstr ""
 
-#: src/rutinkompis/window.py:74 src/rutinkompis/main.py:124
+#: src/rutinkompis/window.py:74 src/rutinkompis/main.py:125
 msgid "Preferences"
 msgstr ""
 
@@ -200,15 +200,15 @@ msgstr ""
 msgid "PDF export requires pycairo"
 msgstr ""
 
-#: src/rutinkompis/main.py:84
+#: src/rutinkompis/main.py:85
 msgid "Welcome"
 msgstr ""
 
-#: src/rutinkompis/main.py:90
+#: src/rutinkompis/main.py:91
 msgid "Welcome to Rutinkompis"
 msgstr ""
 
-#: src/rutinkompis/main.py:92
+#: src/rutinkompis/main.py:93
 msgid ""
 "Follow step-by-step routines with pictures.\n"
 "\n"
@@ -218,95 +218,127 @@ msgid ""
 "✓ Customizable routines"
 msgstr ""
 
-#: src/rutinkompis/main.py:99
+#: src/rutinkompis/main.py:100
 msgid "Get Started"
 msgstr ""
 
-#: src/rutinkompis/main.py:127
+#: src/rutinkompis/main.py:128
 msgid "General"
 msgstr ""
 
-#: src/rutinkompis/main.py:131
+#: src/rutinkompis/main.py:132
 msgid "Appearance"
 msgstr ""
 
-#: src/rutinkompis/main.py:134
+#: src/rutinkompis/main.py:135
 msgid "Theme"
 msgstr ""
 
-#: src/rutinkompis/main.py:135
+#: src/rutinkompis/main.py:136
 msgid "Choose light, dark, or follow system"
 msgstr ""
 
-#: src/rutinkompis/main.py:137
+#: src/rutinkompis/main.py:138
 msgid "System"
 msgstr ""
 
-#: src/rutinkompis/main.py:137
+#: src/rutinkompis/main.py:138
 msgid "Light"
 msgstr ""
 
-#: src/rutinkompis/main.py:137
+#: src/rutinkompis/main.py:138
 msgid "Dark"
 msgstr ""
 
-#: src/rutinkompis/main.py:145
+#: src/rutinkompis/main.py:146
 msgid "Icon Size"
 msgstr ""
 
-#: src/rutinkompis/main.py:146
+#: src/rutinkompis/main.py:147
 msgid "Size of pictogram icons"
 msgstr ""
 
-#: src/rutinkompis/main.py:148
+#: src/rutinkompis/main.py:149
 msgid "Small"
 msgstr ""
 
-#: src/rutinkompis/main.py:148
+#: src/rutinkompis/main.py:149
 msgid "Medium"
 msgstr ""
 
-#: src/rutinkompis/main.py:148
+#: src/rutinkompis/main.py:149
 msgid "Large"
 msgstr ""
 
 #: src/rutinkompis/main.py:160
-msgid "Advanced"
+msgid "Speech"
+msgstr ""
+
+#: src/rutinkompis/main.py:163
+msgid "Speech Engine"
 msgstr ""
 
 #: src/rutinkompis/main.py:164
+msgid "Piper gives natural voices, espeak is robotic but lightweight"
+msgstr ""
+
+#: src/rutinkompis/main.py:166
+msgid "Automatic"
+msgstr ""
+
+#: src/rutinkompis/main.py:166
+msgid "Piper (natural)"
+msgstr ""
+
+#: src/rutinkompis/main.py:166
+msgid "espeak-ng (robotic)"
+msgstr ""
+
+#: src/rutinkompis/main.py:174
+msgid "Speech Speed"
+msgstr ""
+
+#: src/rutinkompis/main.py:175
+msgid "Slower speech can be easier to understand"
+msgstr ""
+
+#: src/rutinkompis/main.py:191
+msgid "Advanced"
+msgstr ""
+
+#: src/rutinkompis/main.py:195
 msgid "ARASAAC Cache"
 msgstr ""
 
-#: src/rutinkompis/main.py:169
+#: src/rutinkompis/main.py:200
 msgid "Cached pictograms"
 msgstr ""
 
-#: src/rutinkompis/main.py:171
+#: src/rutinkompis/main.py:202
 msgid "Clear"
 msgstr ""
 
-#: src/rutinkompis/main.py:180
+#: src/rutinkompis/main.py:211
 msgid "Developer"
 msgstr ""
 
-#: src/rutinkompis/main.py:182
+#: src/rutinkompis/main.py:213
 msgid "Debug mode"
 msgstr ""
 
-#: src/rutinkompis/main.py:183
+#: src/rutinkompis/main.py:214
 msgid "Show extra logging in terminal"
 msgstr ""
 
-#: src/rutinkompis/main.py:211
+#: src/rutinkompis/main.py:242
 msgid "Cleared"
 msgstr ""
 
-#: src/rutinkompis/main.py:242
+#: src/rutinkompis/main.py:273
 msgid "ARASAAC pictograms (https://arasaac.org)"
 msgstr ""
 
-#: src/rutinkompis/main.py:245
+#: src/rutinkompis/main.py:276
 msgid ""
 "Step-by-step visual routine guides with pictogram support for children with "
 "autism and language disorders.\n"
@@ -315,6 +347,6 @@ msgid ""
 "structure."
 msgstr ""
 
-#: src/rutinkompis/main.py:257
+#: src/rutinkompis/main.py:288
 msgid "Autismappar"
 msgstr ""
