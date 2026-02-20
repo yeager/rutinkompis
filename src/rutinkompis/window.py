@@ -69,6 +69,7 @@ class RutinkompisWindow(Adw.ApplicationWindow):
         header.pack_end(theme_btn)
 
         menu = Gio.Menu()
+        menu.append(_("Preferences"), "app.preferences")
         menu.append(_("Keyboard Shortcuts"), "app.shortcuts")
         menu.append(_("About Rutinkompis"), "app.about")
         menu.append(_("Quit"), "app.quit")
