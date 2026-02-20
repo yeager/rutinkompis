@@ -7,6 +7,7 @@ gi.require_version('GdkPixbuf', '2.0')
 from gi.repository import Gtk, Adw, Gio, GLib, GdkPixbuf
 
 from . import arasaac
+from .tts import speak
 
 _ = gettext.gettext
 
@@ -187,6 +188,13 @@ class RutinkompisWindow(Adw.ApplicationWindow):
             time_lbl.add_css_class("dim-label")
             text_box.append(time_lbl)
             row.append(text_box)
+
+            speak_btn = Gtk.Button(icon_name="audio-speakers-symbolic")
+            speak_btn.add_css_class("flat")
+            speak_btn.add_css_class("circular")
+            speak_btn.set_tooltip_text(_("Read aloud"))
+            speak_btn.connect("clicked", lambda _, n=name: speak(n, "sv"))
+            row.append(speak_btn)
 
             check = Gtk.CheckButton()
             check.set_margin_end(12)

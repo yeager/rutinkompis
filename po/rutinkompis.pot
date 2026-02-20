@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: rutinkompis\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-20 20:26+0100\n"
+"POT-Creation-Date: 2026-02-20 21:04+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,229 +17,112 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: src/rutinkompis/main.py:83 src/rutinkompis/main.py:84
-msgid "Welcome"
-msgstr ""
-
-#: src/rutinkompis/main.py:89 src/rutinkompis/main.py:90
-msgid "Welcome to Rutinkompis"
-msgstr ""
-
-#: src/rutinkompis/main.py:91 src/rutinkompis/main.py:92
-msgid ""
-"Follow step-by-step routines with pictures.\n"
-"\n"
-"✓ Visual guides for daily tasks\n"
-"✓ Check off each step as you go\n"
-"✓ Search 13,000+ ARASAAC pictograms\n"
-"✓ Customizable routines"
-msgstr ""
-
-#: src/rutinkompis/main.py:98 src/rutinkompis/main.py:99
-msgid "Get Started"
-msgstr ""
-
-#: src/rutinkompis/main.py:123 src/rutinkompis/window.py:72
-#: src/rutinkompis/window.py:73 src/rutinkompis/main.py:124
-msgid "Preferences"
-msgstr ""
-
-#: src/rutinkompis/main.py:126 src/rutinkompis/main.py:127
-msgid "General"
-msgstr ""
-
-#: src/rutinkompis/main.py:130 src/rutinkompis/main.py:131
-msgid "Appearance"
-msgstr ""
-
-#: src/rutinkompis/main.py:133 src/rutinkompis/main.py:134
-msgid "Theme"
-msgstr ""
-
-#: src/rutinkompis/main.py:134 src/rutinkompis/main.py:135
-msgid "Choose light, dark, or follow system"
-msgstr ""
-
-#: src/rutinkompis/main.py:136 src/rutinkompis/main.py:137
-msgid "System"
-msgstr ""
-
-#: src/rutinkompis/main.py:136 src/rutinkompis/main.py:137
-msgid "Light"
-msgstr ""
-
-#: src/rutinkompis/main.py:136 src/rutinkompis/main.py:137
-msgid "Dark"
-msgstr ""
-
-#: src/rutinkompis/main.py:144 src/rutinkompis/main.py:145
-msgid "Icon Size"
-msgstr ""
-
-#: src/rutinkompis/main.py:145 src/rutinkompis/main.py:146
-msgid "Size of pictogram icons"
-msgstr ""
-
-#: src/rutinkompis/main.py:147 src/rutinkompis/main.py:148
-msgid "Small"
-msgstr ""
-
-#: src/rutinkompis/main.py:147 src/rutinkompis/main.py:148
-msgid "Medium"
-msgstr ""
-
-#: src/rutinkompis/main.py:147 src/rutinkompis/main.py:148
-msgid "Large"
-msgstr ""
-
-#: src/rutinkompis/main.py:159 src/rutinkompis/main.py:160
-msgid "Advanced"
-msgstr ""
-
-#: src/rutinkompis/main.py:163 src/rutinkompis/main.py:164
-msgid "ARASAAC Cache"
-msgstr ""
-
-#: src/rutinkompis/main.py:168 src/rutinkompis/main.py:169
-msgid "Cached pictograms"
-msgstr ""
-
-#: src/rutinkompis/main.py:170 src/rutinkompis/main.py:171
-msgid "Clear"
-msgstr ""
-
-#: src/rutinkompis/main.py:179 src/rutinkompis/main.py:180
-msgid "Developer"
-msgstr ""
-
-#: src/rutinkompis/main.py:181 src/rutinkompis/main.py:182
-msgid "Debug mode"
-msgstr ""
-
-#: src/rutinkompis/main.py:182 src/rutinkompis/main.py:183
-msgid "Show extra logging in terminal"
-msgstr ""
-
-#: src/rutinkompis/main.py:210 src/rutinkompis/main.py:211
-msgid "Cleared"
-msgstr ""
-
-#: src/rutinkompis/main.py:220 src/rutinkompis/window.py:43
-#: src/rutinkompis/main.py:231
-msgid "Rutinkompis"
-msgstr ""
-
-#: src/rutinkompis/main.py:231 src/rutinkompis/main.py:242
-msgid "ARASAAC pictograms (https://arasaac.org)"
-msgstr ""
-
-#: src/rutinkompis/main.py:234 src/rutinkompis/main.py:245
-msgid ""
-"Step-by-step visual routine guides with pictogram support for children with "
-"autism and language disorders.\n"
-"\n"
-"Part of the Autismappar suite — free tools for communication and daily "
-"structure."
-msgstr ""
-
-#: src/rutinkompis/main.py:245 src/rutinkompis/main.py:256
-msgid "Autismappar"
-msgstr ""
-
-#: src/rutinkompis/window.py:15
+#: src/rutinkompis/window.py:16
 msgid "Morning"
 msgstr ""
 
-#: src/rutinkompis/window.py:16
+#: src/rutinkompis/window.py:17
 msgid "Wake up"
 msgstr ""
 
-#: src/rutinkompis/window.py:17
+#: src/rutinkompis/window.py:18
 msgid "Go to toilet"
 msgstr ""
 
-#: src/rutinkompis/window.py:18 src/rutinkompis/window.py:27
+#: src/rutinkompis/window.py:19 src/rutinkompis/window.py:28
 msgid "Brush teeth"
 msgstr ""
 
-#: src/rutinkompis/window.py:19
+#: src/rutinkompis/window.py:20
 msgid "Get dressed"
 msgstr ""
 
-#: src/rutinkompis/window.py:20
+#: src/rutinkompis/window.py:21
 msgid "Eat breakfast"
 msgstr ""
 
-#: src/rutinkompis/window.py:21
+#: src/rutinkompis/window.py:22
 msgid "Pack bag"
 msgstr ""
 
-#: src/rutinkompis/window.py:22
+#: src/rutinkompis/window.py:23
 msgid "Put on shoes"
 msgstr ""
 
-#: src/rutinkompis/window.py:24
+#: src/rutinkompis/window.py:25
 msgid "Evening"
 msgstr ""
 
-#: src/rutinkompis/window.py:25
+#: src/rutinkompis/window.py:26
 msgid "Eat dinner"
 msgstr ""
 
-#: src/rutinkompis/window.py:26
+#: src/rutinkompis/window.py:27
 msgid "Take a bath"
 msgstr ""
 
-#: src/rutinkompis/window.py:28
+#: src/rutinkompis/window.py:29
 msgid "Read a book"
 msgstr ""
 
-#: src/rutinkompis/window.py:29
+#: src/rutinkompis/window.py:30
 msgid "Go to bed"
 msgstr ""
 
-#: src/rutinkompis/window.py:31
+#: src/rutinkompis/window.py:32
 msgid "School"
 msgstr ""
 
-#: src/rutinkompis/window.py:32
+#: src/rutinkompis/window.py:33
 msgid "Take out books"
 msgstr ""
 
-#: src/rutinkompis/window.py:33
+#: src/rutinkompis/window.py:34
 msgid "Do exercises"
 msgstr ""
 
-#: src/rutinkompis/window.py:34
+#: src/rutinkompis/window.py:35
 msgid "Ask for help"
 msgstr ""
 
-#: src/rutinkompis/window.py:35
+#: src/rutinkompis/window.py:36
 msgid "Pack up"
 msgstr ""
 
-#: src/rutinkompis/window.py:67
+#: src/rutinkompis/window.py:44 src/rutinkompis/main.py:231
+msgid "Rutinkompis"
+msgstr ""
+
+#: src/rutinkompis/window.py:68
 msgid "Toggle dark/light theme"
 msgstr ""
 
-#: src/rutinkompis/window.py:73 src/rutinkompis/window.py:74
+#: src/rutinkompis/window.py:73 src/rutinkompis/export.py:137
+msgid "Export Routine"
+msgstr ""
+
+#: src/rutinkompis/window.py:74 src/rutinkompis/main.py:124
+msgid "Preferences"
+msgstr ""
+
+#: src/rutinkompis/window.py:75
 msgid "Keyboard Shortcuts"
 msgstr ""
 
-#: src/rutinkompis/window.py:74 src/rutinkompis/window.py:75
+#: src/rutinkompis/window.py:76
 msgid "About Rutinkompis"
 msgstr ""
 
-#: src/rutinkompis/window.py:75 src/rutinkompis/window.py:76
+#: src/rutinkompis/window.py:77
 msgid "Quit"
 msgstr ""
 
-#: src/rutinkompis/window.py:219 src/rutinkompis/window.py:220
-msgid "All done! Great job!"
+#: src/rutinkompis/window.py:195
+msgid "Read aloud"
 msgstr ""
 
-#: src/rutinkompis/window.py:72 src/rutinkompis/export.py:137
-msgid "Export Routine"
+#: src/rutinkompis/window.py:228
+msgid "All done! Great job!"
 msgstr ""
 
 #: src/rutinkompis/export.py:26
@@ -315,4 +198,123 @@ msgstr ""
 
 #: src/rutinkompis/export.py:202
 msgid "PDF export requires pycairo"
+msgstr ""
+
+#: src/rutinkompis/main.py:84
+msgid "Welcome"
+msgstr ""
+
+#: src/rutinkompis/main.py:90
+msgid "Welcome to Rutinkompis"
+msgstr ""
+
+#: src/rutinkompis/main.py:92
+msgid ""
+"Follow step-by-step routines with pictures.\n"
+"\n"
+"✓ Visual guides for daily tasks\n"
+"✓ Check off each step as you go\n"
+"✓ Search 13,000+ ARASAAC pictograms\n"
+"✓ Customizable routines"
+msgstr ""
+
+#: src/rutinkompis/main.py:99
+msgid "Get Started"
+msgstr ""
+
+#: src/rutinkompis/main.py:127
+msgid "General"
+msgstr ""
+
+#: src/rutinkompis/main.py:131
+msgid "Appearance"
+msgstr ""
+
+#: src/rutinkompis/main.py:134
+msgid "Theme"
+msgstr ""
+
+#: src/rutinkompis/main.py:135
+msgid "Choose light, dark, or follow system"
+msgstr ""
+
+#: src/rutinkompis/main.py:137
+msgid "System"
+msgstr ""
+
+#: src/rutinkompis/main.py:137
+msgid "Light"
+msgstr ""
+
+#: src/rutinkompis/main.py:137
+msgid "Dark"
+msgstr ""
+
+#: src/rutinkompis/main.py:145
+msgid "Icon Size"
+msgstr ""
+
+#: src/rutinkompis/main.py:146
+msgid "Size of pictogram icons"
+msgstr ""
+
+#: src/rutinkompis/main.py:148
+msgid "Small"
+msgstr ""
+
+#: src/rutinkompis/main.py:148
+msgid "Medium"
+msgstr ""
+
+#: src/rutinkompis/main.py:148
+msgid "Large"
+msgstr ""
+
+#: src/rutinkompis/main.py:160
+msgid "Advanced"
+msgstr ""
+
+#: src/rutinkompis/main.py:164
+msgid "ARASAAC Cache"
+msgstr ""
+
+#: src/rutinkompis/main.py:169
+msgid "Cached pictograms"
+msgstr ""
+
+#: src/rutinkompis/main.py:171
+msgid "Clear"
+msgstr ""
+
+#: src/rutinkompis/main.py:180
+msgid "Developer"
+msgstr ""
+
+#: src/rutinkompis/main.py:182
+msgid "Debug mode"
+msgstr ""
+
+#: src/rutinkompis/main.py:183
+msgid "Show extra logging in terminal"
+msgstr ""
+
+#: src/rutinkompis/main.py:211
+msgid "Cleared"
+msgstr ""
+
+#: src/rutinkompis/main.py:242
+msgid "ARASAAC pictograms (https://arasaac.org)"
+msgstr ""
+
+#: src/rutinkompis/main.py:245
+msgid ""
+"Step-by-step visual routine guides with pictogram support for children with "
+"autism and language disorders.\n"
+"\n"
+"Part of the Autismappar suite — free tools for communication and daily "
+"structure."
+msgstr ""
+
+#: src/rutinkompis/main.py:257
+msgid "Autismappar"
 msgstr ""
