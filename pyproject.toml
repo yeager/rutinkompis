@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "rutinkompis"
-version = "0.1.1"
+version = "0.2.0"
 description = "Step-by-step visual routine guides for children with autism"
 requires-python = ">=3.10"
 license = "GPL-3.0-or-later"

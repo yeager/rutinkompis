@@ -3,32 +3,36 @@ import gettext
 import gi
 gi.require_version('Gtk', '4.0')
 gi.require_version('Adw', '1')
-from gi.repository import Gtk, Adw, Gio, GLib
+gi.require_version('GdkPixbuf', '2.0')
+from gi.repository import Gtk, Adw, Gio, GLib, GdkPixbuf
+
+from . import arasaac
 
 _ = gettext.gettext
 
+# Each entry: (emoji_fallback, translated_label, minutes, arasaac_search_term)
 ROUTINES = {
     _("Morning"): [
-        ("🌅", _("Wake up"), 5),
-        ("🚽", _("Go to toilet"), 5),
-        ("🪥", _("Brush teeth"), 3),
-        ("👕", _("Get dressed"), 10),
-        ("🥣", _("Eat breakfast"), 15),
-        ("🎒", _("Pack bag"), 5),
-        ("👟", _("Put on shoes"), 3),
+        ("🌅", _("Wake up"), 5, "wake up"),
+        ("🚽", _("Go to toilet"), 5, "toilet"),
+        ("🪥", _("Brush teeth"), 3, "brush teeth"),
+        ("👕", _("Get dressed"), 10, "get dressed"),
+        ("🥣", _("Eat breakfast"), 15, "breakfast"),
+        ("🎒", _("Pack bag"), 5, "backpack"),
+        ("👟", _("Put on shoes"), 3, "shoes"),
     ],
     _("Evening"): [
-        ("🍽️", _("Eat dinner"), 20),
-        ("🛁", _("Take a bath"), 15),
-        ("🪥", _("Brush teeth"), 3),
-        ("📖", _("Read a book"), 15),
-        ("🌙", _("Go to bed"), 5),
+        ("🍽️", _("Eat dinner"), 20, "dinner"),
+        ("🛁", _("Take a bath"), 15, "bath"),
+        ("🪥", _("Brush teeth"), 3, "brush teeth"),
+        ("📖", _("Read a book"), 15, "read"),
+        ("🌙", _("Go to bed"), 5, "sleep"),
     ],
     _("School"): [
-        ("📚", _("Take out books"), 3),
-        ("✏️", _("Do exercises"), 20),
-        ("🤚", _("Ask for help"), 2),
-        ("📦", _("Pack up"), 5),
+        ("📚", _("Take out books"), 3, "books"),
+        ("✏️", _("Do exercises"), 20, "write"),
+        ("🤚", _("Ask for help"), 2, "help"),
+        ("📦", _("Pack up"), 5, "backpack"),
     ],
 }
 
@@ -40,8 +44,17 @@ class RutinkompisWindow(Adw.ApplicationWindow):
         self.current_routine = list(ROUTINES.keys())[0]
         self.completed_steps = set()
         self.stars = 0
+        self._provider = None
         self._build_ui()
         self._start_clock()
+
+    def _get_provider(self):
+        if self._provider is None:
+            try:
+                self._provider = arasaac.get_provider()
+            except Exception:
+                pass
+        return self._provider
 
     def _build_ui(self):
         main_box = Gtk.Box(orientation=Gtk.Orientation.VERTICAL)
@@ -114,6 +127,31 @@ class RutinkompisWindow(Adw.ApplicationWindow):
 
         self._populate_steps()
 
+    def _make_icon(self, emoji, arasaac_term):
+        """Create icon widget: ARASAAC pictogram if available, else emoji."""
+        provider = self._get_provider()
+        if provider and arasaac_term:
+            try:
+                path = provider.get_pictogram(arasaac_term, lang="en", resolution=300)
+                if path:
+                    pixbuf = GdkPixbuf.Pixbuf.new_from_file_at_scale(
+                        path, 48, 48, True)
+                    image = Gtk.Image.new_from_pixbuf(pixbuf)
+                    image.set_pixel_size(48)
+                    image.set_margin_start(12)
+                    image.set_margin_top(8)
+                    image.set_margin_bottom(8)
+                    return image
+            except Exception:
+                pass
+
+        icon = Gtk.Label(label=emoji)
+        icon.add_css_class("title-1")
+        icon.set_margin_start(12)
+        icon.set_margin_top(8)
+        icon.set_margin_bottom(8)
+        return icon
+
     def _populate_steps(self):
         child = self.steps_box.get_first_child()
         while child:
@@ -125,7 +163,7 @@ class RutinkompisWindow(Adw.ApplicationWindow):
         self.celebration.set_label("")
         steps = ROUTINES.get(self.current_routine, [])
 
-        for i, (emoji, name, mins) in enumerate(steps):
+        for i, (emoji, name, mins, arasaac_term) in enumerate(steps):
             row = Gtk.Box(orientation=Gtk.Orientation.HORIZONTAL, spacing=8)
             row.add_css_class("card")
             row.set_margin_start(4)
@@ -133,11 +171,7 @@ class RutinkompisWindow(Adw.ApplicationWindow):
             row.set_margin_top(2)
             row.set_margin_bottom(2)
 
-            icon = Gtk.Label(label=emoji)
-            icon.add_css_class("title-1")
-            icon.set_margin_start(12)
-            icon.set_margin_top(8)
-            icon.set_margin_bottom(8)
+            icon = self._make_icon(emoji, arasaac_term)
             row.append(icon)
 
             text_box = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=2,
