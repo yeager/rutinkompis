@@ -1,24 +1,147 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR Daniel Nylander
+# This file is distributed under the same license as the rutinkompis package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: rutinkompis\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-20 15:35+0100\n"
+"POT-Creation-Date: 2026-02-20 20:20+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: src/rutinkompis/main.py:46 src/rutinkompis/window.py:43
+#: src/rutinkompis/main.py:83
+msgid "Welcome"
+msgstr ""
+
+#: src/rutinkompis/main.py:89
+msgid "Welcome to Rutinkompis"
+msgstr ""
+
+#: src/rutinkompis/main.py:91
+msgid ""
+"Follow step-by-step routines with pictures.\n"
+"\n"
+"✓ Visual guides for daily tasks\n"
+"✓ Check off each step as you go\n"
+"✓ Search 13,000+ ARASAAC pictograms\n"
+"✓ Customizable routines"
+msgstr ""
+
+#: src/rutinkompis/main.py:98
+msgid "Get Started"
+msgstr ""
+
+#: src/rutinkompis/main.py:123 src/rutinkompis/window.py:72
+msgid "Preferences"
+msgstr ""
+
+#: src/rutinkompis/main.py:126
+msgid "General"
+msgstr ""
+
+#: src/rutinkompis/main.py:130
+msgid "Appearance"
+msgstr ""
+
+#: src/rutinkompis/main.py:133
+msgid "Theme"
+msgstr ""
+
+#: src/rutinkompis/main.py:134
+msgid "Choose light, dark, or follow system"
+msgstr ""
+
+#: src/rutinkompis/main.py:136
+msgid "System"
+msgstr ""
+
+#: src/rutinkompis/main.py:136
+msgid "Light"
+msgstr ""
+
+#: src/rutinkompis/main.py:136
+msgid "Dark"
+msgstr ""
+
+#: src/rutinkompis/main.py:144
+msgid "Icon Size"
+msgstr ""
+
+#: src/rutinkompis/main.py:145
+msgid "Size of pictogram icons"
+msgstr ""
+
+#: src/rutinkompis/main.py:147
+msgid "Small"
+msgstr ""
+
+#: src/rutinkompis/main.py:147
+msgid "Medium"
+msgstr ""
+
+#: src/rutinkompis/main.py:147
+msgid "Large"
+msgstr ""
+
+#: src/rutinkompis/main.py:159
+msgid "Advanced"
+msgstr ""
+
+#: src/rutinkompis/main.py:163
+msgid "ARASAAC Cache"
+msgstr ""
+
+#: src/rutinkompis/main.py:168
+msgid "Cached pictograms"
+msgstr ""
+
+#: src/rutinkompis/main.py:170
+msgid "Clear"
+msgstr ""
+
+#: src/rutinkompis/main.py:179
+msgid "Developer"
+msgstr ""
+
+#: src/rutinkompis/main.py:181
+msgid "Debug mode"
+msgstr ""
+
+#: src/rutinkompis/main.py:182
+msgid "Show extra logging in terminal"
+msgstr ""
+
+#: src/rutinkompis/main.py:210
+msgid "Cleared"
+msgstr ""
+
+#: src/rutinkompis/main.py:220 src/rutinkompis/window.py:43
 msgid "Rutinkompis"
+msgstr ""
+
+#: src/rutinkompis/main.py:231
+msgid "ARASAAC pictograms (https://arasaac.org)"
+msgstr ""
+
+#: src/rutinkompis/main.py:234
+msgid ""
+"Step-by-step visual routine guides with pictogram support for children with "
+"autism and language disorders.\n"
+"\n"
+"Part of the Autismappar suite — free tools for communication and daily "
+"structure."
+msgstr ""
+
+#: src/rutinkompis/main.py:245
+msgid "Autismappar"
 msgstr ""
 
 #: src/rutinkompis/window.py:15
@@ -97,18 +220,18 @@ msgstr ""
 msgid "Toggle dark/light theme"
 msgstr ""
 
-#: src/rutinkompis/window.py:72
+#: src/rutinkompis/window.py:73
 msgid "Keyboard Shortcuts"
 msgstr ""
 
-#: src/rutinkompis/window.py:73
+#: src/rutinkompis/window.py:74
 msgid "About Rutinkompis"
 msgstr ""
 
-#: src/rutinkompis/window.py:74
+#: src/rutinkompis/window.py:75
 msgid "Quit"
 msgstr ""
 
-#: src/rutinkompis/window.py:218
+#: src/rutinkompis/window.py:219
 msgid "All done! Great job!"
 msgstr ""
