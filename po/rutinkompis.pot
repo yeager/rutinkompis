@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-18 10:19+0100\n"
+"POT-Creation-Date: 2026-02-20 15:35+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,98 +17,98 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: src/rutinkompis/window.py:11
-msgid "Morning"
-msgstr ""
-
-#: src/rutinkompis/window.py:12
-msgid "Wake up"
-msgstr ""
-
-#: src/rutinkompis/window.py:13
-msgid "Go to toilet"
-msgstr ""
-
-#: src/rutinkompis/window.py:14 src/rutinkompis/window.py:23
-msgid "Brush teeth"
-msgstr ""
-
-#: src/rutinkompis/window.py:15
-msgid "Get dressed"
-msgstr ""
-
-#: src/rutinkompis/window.py:16
-msgid "Eat breakfast"
-msgstr ""
-
-#: src/rutinkompis/window.py:17
-msgid "Pack bag"
-msgstr ""
-
-#: src/rutinkompis/window.py:18
-msgid "Put on shoes"
-msgstr ""
-
-#: src/rutinkompis/window.py:20
-msgid "Evening"
-msgstr ""
-
-#: src/rutinkompis/window.py:21
-msgid "Eat dinner"
-msgstr ""
-
-#: src/rutinkompis/window.py:22
-msgid "Take a bath"
-msgstr ""
-
-#: src/rutinkompis/window.py:24
-msgid "Read a book"
-msgstr ""
-
-#: src/rutinkompis/window.py:25
-msgid "Go to bed"
-msgstr ""
-
-#: src/rutinkompis/window.py:27
-msgid "School"
-msgstr ""
-
-#: src/rutinkompis/window.py:28
-msgid "Take out books"
-msgstr ""
-
-#: src/rutinkompis/window.py:29
-msgid "Do exercises"
-msgstr ""
-
-#: src/rutinkompis/window.py:30
-msgid "Ask for help"
-msgstr ""
-
-#: src/rutinkompis/window.py:31
-msgid "Pack up"
-msgstr ""
-
-#: src/rutinkompis/window.py:39 src/rutinkompis/main.py:46
+#: src/rutinkompis/main.py:46 src/rutinkompis/window.py:43
 msgid "Rutinkompis"
 msgstr ""
 
-#: src/rutinkompis/window.py:54
+#: src/rutinkompis/window.py:15
+msgid "Morning"
+msgstr ""
+
+#: src/rutinkompis/window.py:16
+msgid "Wake up"
+msgstr ""
+
+#: src/rutinkompis/window.py:17
+msgid "Go to toilet"
+msgstr ""
+
+#: src/rutinkompis/window.py:18 src/rutinkompis/window.py:27
+msgid "Brush teeth"
+msgstr ""
+
+#: src/rutinkompis/window.py:19
+msgid "Get dressed"
+msgstr ""
+
+#: src/rutinkompis/window.py:20
+msgid "Eat breakfast"
+msgstr ""
+
+#: src/rutinkompis/window.py:21
+msgid "Pack bag"
+msgstr ""
+
+#: src/rutinkompis/window.py:22
+msgid "Put on shoes"
+msgstr ""
+
+#: src/rutinkompis/window.py:24
+msgid "Evening"
+msgstr ""
+
+#: src/rutinkompis/window.py:25
+msgid "Eat dinner"
+msgstr ""
+
+#: src/rutinkompis/window.py:26
+msgid "Take a bath"
+msgstr ""
+
+#: src/rutinkompis/window.py:28
+msgid "Read a book"
+msgstr ""
+
+#: src/rutinkompis/window.py:29
+msgid "Go to bed"
+msgstr ""
+
+#: src/rutinkompis/window.py:31
+msgid "School"
+msgstr ""
+
+#: src/rutinkompis/window.py:32
+msgid "Take out books"
+msgstr ""
+
+#: src/rutinkompis/window.py:33
+msgid "Do exercises"
+msgstr ""
+
+#: src/rutinkompis/window.py:34
+msgid "Ask for help"
+msgstr ""
+
+#: src/rutinkompis/window.py:35
+msgid "Pack up"
+msgstr ""
+
+#: src/rutinkompis/window.py:67
 msgid "Toggle dark/light theme"
 msgstr ""
 
-#: src/rutinkompis/window.py:59
+#: src/rutinkompis/window.py:72
 msgid "Keyboard Shortcuts"
 msgstr ""
 
-#: src/rutinkompis/window.py:60
+#: src/rutinkompis/window.py:73
 msgid "About Rutinkompis"
 msgstr ""
 
-#: src/rutinkompis/window.py:61
+#: src/rutinkompis/window.py:74
 msgid "Quit"
 msgstr ""
 
-#: src/rutinkompis/window.py:184
+#: src/rutinkompis/window.py:218
 msgid "All done! Great job!"
 msgstr ""
