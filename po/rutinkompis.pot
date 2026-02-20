@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: rutinkompis\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-20 20:20+0100\n"
+"POT-Creation-Date: 2026-02-20 20:26+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,15 +17,15 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: src/rutinkompis/main.py:83
+#: src/rutinkompis/main.py:83 src/rutinkompis/main.py:84
 msgid "Welcome"
 msgstr ""
 
-#: src/rutinkompis/main.py:89
+#: src/rutinkompis/main.py:89 src/rutinkompis/main.py:90
 msgid "Welcome to Rutinkompis"
 msgstr ""
 
-#: src/rutinkompis/main.py:91
+#: src/rutinkompis/main.py:91 src/rutinkompis/main.py:92
 msgid ""
 "Follow step-by-step routines with pictures.\n"
 "\n"
@@ -35,103 +35,105 @@ msgid ""
 "✓ Customizable routines"
 msgstr ""
 
-#: src/rutinkompis/main.py:98
+#: src/rutinkompis/main.py:98 src/rutinkompis/main.py:99
 msgid "Get Started"
 msgstr ""
 
 #: src/rutinkompis/main.py:123 src/rutinkompis/window.py:72
+#: src/rutinkompis/window.py:73 src/rutinkompis/main.py:124
 msgid "Preferences"
 msgstr ""
 
-#: src/rutinkompis/main.py:126
+#: src/rutinkompis/main.py:126 src/rutinkompis/main.py:127
 msgid "General"
 msgstr ""
 
-#: src/rutinkompis/main.py:130
+#: src/rutinkompis/main.py:130 src/rutinkompis/main.py:131
 msgid "Appearance"
 msgstr ""
 
-#: src/rutinkompis/main.py:133
+#: src/rutinkompis/main.py:133 src/rutinkompis/main.py:134
 msgid "Theme"
 msgstr ""
 
-#: src/rutinkompis/main.py:134
+#: src/rutinkompis/main.py:134 src/rutinkompis/main.py:135
 msgid "Choose light, dark, or follow system"
 msgstr ""
 
-#: src/rutinkompis/main.py:136
+#: src/rutinkompis/main.py:136 src/rutinkompis/main.py:137
 msgid "System"
 msgstr ""
 
-#: src/rutinkompis/main.py:136
+#: src/rutinkompis/main.py:136 src/rutinkompis/main.py:137
 msgid "Light"
 msgstr ""
 
-#: src/rutinkompis/main.py:136
+#: src/rutinkompis/main.py:136 src/rutinkompis/main.py:137
 msgid "Dark"
 msgstr ""
 
-#: src/rutinkompis/main.py:144
+#: src/rutinkompis/main.py:144 src/rutinkompis/main.py:145
 msgid "Icon Size"
 msgstr ""
 
-#: src/rutinkompis/main.py:145
+#: src/rutinkompis/main.py:145 src/rutinkompis/main.py:146
 msgid "Size of pictogram icons"
 msgstr ""
 
-#: src/rutinkompis/main.py:147
+#: src/rutinkompis/main.py:147 src/rutinkompis/main.py:148
 msgid "Small"
 msgstr ""
 
-#: src/rutinkompis/main.py:147
+#: src/rutinkompis/main.py:147 src/rutinkompis/main.py:148
 msgid "Medium"
 msgstr ""
 
-#: src/rutinkompis/main.py:147
+#: src/rutinkompis/main.py:147 src/rutinkompis/main.py:148
 msgid "Large"
 msgstr ""
 
-#: src/rutinkompis/main.py:159
+#: src/rutinkompis/main.py:159 src/rutinkompis/main.py:160
 msgid "Advanced"
 msgstr ""
 
-#: src/rutinkompis/main.py:163
+#: src/rutinkompis/main.py:163 src/rutinkompis/main.py:164
 msgid "ARASAAC Cache"
 msgstr ""
 
-#: src/rutinkompis/main.py:168
+#: src/rutinkompis/main.py:168 src/rutinkompis/main.py:169
 msgid "Cached pictograms"
 msgstr ""
 
-#: src/rutinkompis/main.py:170
+#: src/rutinkompis/main.py:170 src/rutinkompis/main.py:171
 msgid "Clear"
 msgstr ""
 
-#: src/rutinkompis/main.py:179
+#: src/rutinkompis/main.py:179 src/rutinkompis/main.py:180
 msgid "Developer"
 msgstr ""
 
-#: src/rutinkompis/main.py:181
+#: src/rutinkompis/main.py:181 src/rutinkompis/main.py:182
 msgid "Debug mode"
 msgstr ""
 
-#: src/rutinkompis/main.py:182
+#: src/rutinkompis/main.py:182 src/rutinkompis/main.py:183
 msgid "Show extra logging in terminal"
 msgstr ""
 
-#: src/rutinkompis/main.py:210
+#: src/rutinkompis/main.py:210 src/rutinkompis/main.py:211
 msgid "Cleared"
 msgstr ""
 
 #: src/rutinkompis/main.py:220 src/rutinkompis/window.py:43
+#: src/rutinkompis/main.py:231
 msgid "Rutinkompis"
 msgstr ""
 
-#: src/rutinkompis/main.py:231
+#: src/rutinkompis/main.py:231 src/rutinkompis/main.py:242
 msgid "ARASAAC pictograms (https://arasaac.org)"
 msgstr ""
 
-#: src/rutinkompis/main.py:234
+#: src/rutinkompis/main.py:234 src/rutinkompis/main.py:245
 msgid ""
 "Step-by-step visual routine guides with pictogram support for children with "
 "autism and language disorders.\n"
@@ -140,7 +142,7 @@ msgid ""
 "structure."
 msgstr ""
 
-#: src/rutinkompis/main.py:245
+#: src/rutinkompis/main.py:245 src/rutinkompis/main.py:256
 msgid "Autismappar"
 msgstr ""
 
@@ -220,18 +222,97 @@ msgstr ""
 msgid "Toggle dark/light theme"
 msgstr ""
 
-#: src/rutinkompis/window.py:73
+#: src/rutinkompis/window.py:73 src/rutinkompis/window.py:74
 msgid "Keyboard Shortcuts"
 msgstr ""
 
-#: src/rutinkompis/window.py:74
+#: src/rutinkompis/window.py:74 src/rutinkompis/window.py:75
 msgid "About Rutinkompis"
 msgstr ""
 
-#: src/rutinkompis/window.py:75
+#: src/rutinkompis/window.py:75 src/rutinkompis/window.py:76
 msgid "Quit"
 msgstr ""
 
-#: src/rutinkompis/window.py:219
+#: src/rutinkompis/window.py:219 src/rutinkompis/window.py:220
 msgid "All done! Great job!"
+msgstr ""
+
+#: src/rutinkompis/window.py:72 src/rutinkompis/export.py:137
+msgid "Export Routine"
+msgstr ""
+
+#: src/rutinkompis/export.py:26
+msgid "Step"
+msgstr ""
+
+#: src/rutinkompis/export.py:26
+msgid "Activity"
+msgstr ""
+
+#: src/rutinkompis/export.py:26
+msgid "Duration (min)"
+msgstr ""
+
+#: src/rutinkompis/export.py:26
+msgid "Completed"
+msgstr ""
+
+#: src/rutinkompis/export.py:28
+msgid "No"
+msgstr ""
+
+#: src/rutinkompis/export.py:66
+msgid "My Routine"
+msgstr ""
+
+#: src/rutinkompis/export.py:106
+#, python-format
+msgid "%d min"
+msgstr ""
+
+#: src/rutinkompis/export.py:138
+msgid "Choose export format:"
+msgstr ""
+
+#: src/rutinkompis/export.py:140
+msgid "Cancel"
+msgstr ""
+
+#: src/rutinkompis/export.py:141
+msgid "CSV"
+msgstr ""
+
+#: src/rutinkompis/export.py:142
+msgid "JSON"
+msgstr ""
+
+#: src/rutinkompis/export.py:143
+msgid "PDF"
+msgstr ""
+
+#: src/rutinkompis/export.py:165
+msgid "Save Export"
+msgstr ""
+
+#: src/rutinkompis/export.py:179
+#, python-format
+msgid "Exported %s"
+msgstr ""
+
+#: src/rutinkompis/export.py:182 src/rutinkompis/export.py:205
+#, python-format
+msgid "Export error: %s"
+msgstr ""
+
+#: src/rutinkompis/export.py:187
+msgid "Save PDF"
+msgstr ""
+
+#: src/rutinkompis/export.py:200
+msgid "PDF exported"
+msgstr ""
+
+#: src/rutinkompis/export.py:202
+msgid "PDF export requires pycairo"
 msgstr ""

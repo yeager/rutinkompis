@@ -69,6 +69,7 @@ class RutinkompisApp(Adw.Application):
             ("about", self._on_about, ["F1"]),
             ("shortcuts", self._on_shortcuts, ["<Control>slash"]),
             ("preferences", self._on_preferences, ["<Control>comma"]),
+            ("export", self._on_export, ["<Control>e"]),
         ]:
             action = Gio.SimpleAction.new(name, None)
             action.connect("activate", cb)
@@ -213,6 +214,16 @@ class RutinkompisApp(Adw.Application):
         self.settings["debug"] = row.get_active()
         _save_settings(self.settings)
 
+    # ── Export ────────────────────────────────────────────────
+
+    def _on_export(self, *_):
+        win = self.props.active_window
+        if win and hasattr(win, 'steps'):
+            from rutinkompis.export import show_export_dialog
+            show_export_dialog(win, win.steps,
+                               routine_name=getattr(win, 'routine_name', ''),
+                               status_callback=getattr(win, '_set_status', None))
+
     # ── About ────────────────────────────────────────────────
 
     def _on_about(self, *_):
@@ -258,6 +269,12 @@ class RutinkompisApp(Adw.Application):
                 <child>
                   <object class="GtkShortcutsGroup">
                     <property name="title" translatable="yes">General</property>
+                    <child>
+                      <object class="GtkShortcutsShortcut">
+                        <property name="title" translatable="yes">Export</property>
+                        <property name="accelerator">&lt;Control&gt;e</property>
+                      </object>
+                    </child>
                     <child>
                       <object class="GtkShortcutsShortcut">
                         <property name="title" translatable="yes">Preferences</property>
