@@ -1,56 +1,61 @@
 # Rutinkompis
 
-Step-by-step visual routine guides for children with autism.
+[![Version](https://img.shields.io/badge/version-0.2.0-blue)](https://github.com/yeager/rutinkompis/releases)
+[![License: GPL-3.0](https://img.shields.io/badge/License-GPL%203.0-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![Transifex](https://img.shields.io/badge/Transifex-Translate-green.svg)](https://www.transifex.com/danielnylander/rutinkompis/)
 
-> **Målgrupp / Target audience:** Barn och vuxna med autism, ADHD, intellektuell
-> funktionsnedsättning och andra kognitiva funktionsnedsättningar som behöver
-> steg-för-steg visuellt stöd för dagliga rutiner. Perfekt för morgonrutiner,
-> kvällsrutiner och skolrutiner. Även användbart i LSS-verksamhet och habilitering.
->
-> **For:** Children and adults with autism spectrum disorder (ASD), ADHD, intellectual
-> disabilities, and other cognitive disabilities who need step-by-step visual routine
-> guides. Perfect for morning routines, evening routines, and school routines. Also
-> useful in disability services and rehabilitation settings.
+Step-by-step visual routine guides with ARASAAC pictograms — GTK4/Adwaita.
 
-![Screenshot](screenshots/screenshot.png)
+> **For:** Children with autism, ADHD, or intellectual disabilities who benefit from visual step-by-step routine guides with pictogram support.
+
+![Screenshot](screenshots/main.png)
 
 ## Features
 
-- Create and follow routines (morning, evening, school)
-- Each step has image + text + timer
-- Mark steps complete with visual feedback
-- Star rewards for motivation
-- Dark/light theme toggle
-
-## Requirements
-
-- Python 3.10+
-- GTK4 / libadwaita
-- PyGObject
+- **Visual routines** — step-by-step guides with images
+- **ARASAAC pictograms** — automatic download of free symbols
+- **Checkable steps** — mark steps as done
+- **Custom routines** — create your own sequences
+- **Timer support** — time limits per step
+- **Dark/light theme** toggle
 
 ## Installation
 
+### Debian/Ubuntu
+
 ```bash
-# Install dependencies (Fedora/RHEL)
-sudo dnf install python3-gobject gtk4 libadwaita
-
-# Install dependencies (Debian/Ubuntu)
-sudo apt install python3-gi gir1.2-gtk-4.0 gir1.2-adw-1
-
-# Run from source
-PYTHONPATH=src python3 -c "from rutinkompis.main import main; main()"
+echo "deb [signed-by=/usr/share/keyrings/yeager-keyring.gpg] https://yeager.github.io/debian-repo stable main" | sudo tee /etc/apt/sources.list.d/yeager.list
+curl -fsSL https://yeager.github.io/debian-repo/yeager-keyring.gpg | sudo tee /usr/share/keyrings/yeager-keyring.gpg > /dev/null
+sudo apt update && sudo apt install rutinkompis
 ```
+
+### Fedora/openSUSE
+
+```bash
+sudo dnf config-manager --add-repo https://yeager.github.io/rpm-repo/yeager.repo
+sudo dnf install rutinkompis
+```
+
+### From source
+
+```bash
+git clone https://github.com/yeager/rutinkompis.git
+cd rutinkompis && pip install -e .
+rutinkompis
+```
+
+## ARASAAC Attribution
+
+Pictographic symbols © Gobierno de Aragón, created by Sergio Palao for [ARASAAC](https://arasaac.org), distributed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+## Translation
+
+Help translate on [Transifex](https://www.transifex.com/danielnylander/rutinkompis/).
 
 ## License
 
-GPL-3.0-or-later
+GPL-3.0-or-later — see [LICENSE](LICENSE) for details.
 
 ## Author
 
-Daniel Nylander
-
-## Links
-
-- [GitHub](https://github.com/yeager/rutinkompis)
-- [Issues](https://github.com/yeager/rutinkompis/issues)
-- [Translations](https://app.transifex.com/danielnylander/rutinkompis)
+**Daniel Nylander** — [danielnylander.se](https://danielnylander.se)
