@@ -12,6 +12,7 @@ from rutinkompis import __version__
 
 APP_LABEL = "Rutinkompis"
 AUTHOR = "Daniel Nylander"
+WEBSITE = "www.autismappar.se"
 
 import gi
 gi.require_version('Gtk', '4.0')
@@ -27,7 +28,7 @@ def routine_to_csv(steps, routine_name=""):
     for i, (emoji, name, mins, term) in enumerate(steps, 1):
         writer.writerow([i, name, mins, _("No")])
     writer.writerow([])
-    writer.writerow([f"{APP_LABEL} v{__version__} — {AUTHOR}"])
+    writer.writerow([f"{APP_LABEL} v{__version__} — {WEBSITE}"])
     return output.getvalue()
 
 
@@ -125,7 +126,7 @@ def routine_to_pdf(steps, routine_name, output_path):
     ctx.set_font_size(9)
     ctx.set_source_rgb(0.5, 0.5, 0.5)
     ctx.move_to(40, height - 20)
-    ctx.show_text(f"{APP_LABEL} v{__version__} — {AUTHOR} — {datetime.now().strftime('%Y-%m-%d')}")
+    ctx.show_text(f"{APP_LABEL} v{__version__} — {WEBSITE} — {datetime.now().strftime('%Y-%m-%d')}")
 
     surface.finish()
     return True
