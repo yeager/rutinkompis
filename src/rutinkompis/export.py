@@ -10,7 +10,7 @@ _ = gettext.gettext
 
 from rutinkompis import __version__
 
-APP_LABEL = "Rutinkompis"
+APP_LABEL = _("Routine Buddy")
 AUTHOR = "Daniel Nylander"
 WEBSITE = "www.autismappar.se"
 

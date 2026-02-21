@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: rutinkompis\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-21 15:09+0100\n"
+"POT-Creation-Date: 2026-02-21 15:17+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,6 +16,11 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+#: src/rutinkompis/export.py:13 src/rutinkompis/main.py:262
+#: src/rutinkompis/window.py:44
+msgid "Routine Buddy"
+msgstr ""
 
 #: src/rutinkompis/export.py:27
 msgid "Step"
@@ -232,10 +237,6 @@ msgstr ""
 
 #: src/rutinkompis/main.py:242
 msgid "Cleared"
-msgstr ""
-
-#: src/rutinkompis/main.py:262 src/rutinkompis/window.py:44
-msgid "Routine Buddy"
 msgstr ""
 
 #: src/rutinkompis/main.py:273
