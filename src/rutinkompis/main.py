@@ -11,6 +11,7 @@ from gi.repository import Gtk, Adw, Gio, GLib
 
 from rutinkompis import __version__
 from rutinkompis.window import RutinkompisWindow
+from rutinkompis.accessibility import apply_large_text
 
 TEXTDOMAIN = "rutinkompis"
 gettext.textdomain(TEXTDOMAIN)
@@ -43,6 +44,7 @@ class RutinkompisApp(Adw.Application):
         self.settings = _load_settings()
 
     def do_activate(self):
+        apply_large_text()
         win = self.props.active_window or RutinkompisWindow(application=self)
         self._apply_theme()
         self._apply_tts_settings()
