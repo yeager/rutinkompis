@@ -41,7 +41,7 @@ ROUTINES = {
 class RutinkompisWindow(Adw.ApplicationWindow):
     def __init__(self, **kwargs):
         super().__init__(**kwargs, default_width=480, default_height=700,
-                         title=_("Rutinkompis"))
+                         title=_("Routine Buddy"))
         self.current_routine = list(ROUTINES.keys())[0]
         self.completed_steps = set()
         self.stars = 0
@@ -73,7 +73,7 @@ class RutinkompisWindow(Adw.ApplicationWindow):
         menu.append(_("Export Routine"), "app.export")
         menu.append(_("Preferences"), "app.preferences")
         menu.append(_("Keyboard Shortcuts"), "app.shortcuts")
-        menu.append(_("About Rutinkompis"), "app.about")
+        menu.append(_("About Routine Buddy"), "app.about")
         menu.append(_("Quit"), "app.quit")
         menu_btn = Gtk.MenuButton(icon_name="open-menu-symbolic", menu_model=menu)
         header.pack_end(menu_btn)
