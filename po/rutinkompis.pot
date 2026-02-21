@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: rutinkompis\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-21 08:20+0100\n"
+"POT-Creation-Date: 2026-02-21 15:09+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,82 +17,82 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: src/rutinkompis/export.py:26
+#: src/rutinkompis/export.py:27
 msgid "Step"
 msgstr ""
 
-#: src/rutinkompis/export.py:26
+#: src/rutinkompis/export.py:27
 msgid "Activity"
 msgstr ""
 
-#: src/rutinkompis/export.py:26
+#: src/rutinkompis/export.py:27
 msgid "Duration (min)"
 msgstr ""
 
-#: src/rutinkompis/export.py:26
+#: src/rutinkompis/export.py:27
 msgid "Completed"
 msgstr ""
 
-#: src/rutinkompis/export.py:28
+#: src/rutinkompis/export.py:29
 msgid "No"
 msgstr ""
 
-#: src/rutinkompis/export.py:66
+#: src/rutinkompis/export.py:67
 msgid "My Routine"
 msgstr ""
 
-#: src/rutinkompis/export.py:106
+#: src/rutinkompis/export.py:107
 #, python-format
 msgid "%d min"
 msgstr ""
 
-#: src/rutinkompis/export.py:137 src/rutinkompis/window.py:73
+#: src/rutinkompis/export.py:138 src/rutinkompis/window.py:73
 msgid "Export Routine"
 msgstr ""
 
-#: src/rutinkompis/export.py:138
+#: src/rutinkompis/export.py:139
 msgid "Choose export format:"
 msgstr ""
 
-#: src/rutinkompis/export.py:140
+#: src/rutinkompis/export.py:141
 msgid "Cancel"
 msgstr ""
 
-#: src/rutinkompis/export.py:141
+#: src/rutinkompis/export.py:142
 msgid "CSV"
 msgstr ""
 
-#: src/rutinkompis/export.py:142
+#: src/rutinkompis/export.py:143
 msgid "JSON"
 msgstr ""
 
-#: src/rutinkompis/export.py:143
+#: src/rutinkompis/export.py:144
 msgid "PDF"
 msgstr ""
 
-#: src/rutinkompis/export.py:165
+#: src/rutinkompis/export.py:166
 msgid "Save Export"
 msgstr ""
 
-#: src/rutinkompis/export.py:179
+#: src/rutinkompis/export.py:180
 #, python-format
 msgid "Exported %s"
 msgstr ""
 
-#: src/rutinkompis/export.py:182 src/rutinkompis/export.py:205
+#: src/rutinkompis/export.py:183 src/rutinkompis/export.py:206
 #, python-format
 msgid "Export error: %s"
 msgstr ""
 
-#: src/rutinkompis/export.py:187
+#: src/rutinkompis/export.py:188
 msgid "Save PDF"
 msgstr ""
 
-#: src/rutinkompis/export.py:200
+#: src/rutinkompis/export.py:201
 msgid "PDF exported"
 msgstr ""
 
-#: src/rutinkompis/export.py:202
+#: src/rutinkompis/export.py:203
 msgid "PDF export requires pycairo"
 msgstr ""
 
