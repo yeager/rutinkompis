@@ -1,5 +1,12 @@
 # 📋 Rutinkompis
 
+
+## Screenshots
+
+| English | Svenska |
+|---------|---------|
+| ![English](screenshots/rutinkompis_en.png) | ![Svenska](screenshots/rutinkompis_sv.png) |
+
 **Step-by-step visual routine guides for children with autism**
 
 Part of the [Autismappar](https://www.autismappar.se) suite — free, open-source tools for communication and daily structure for children with autism and language disorders.
