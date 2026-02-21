@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR Daniel Nylander
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the rutinkompis package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: rutinkompis\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-20 20:26+0100\n"
+"POT-Creation-Date: 2026-02-21 08:20+0100\n"
 "PO-Revision-Date: 2026-02-18 09:21+0000\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>, 2026\n"
 "Language-Team: Swedish (https://app.transifex.com/danielnylander/teams/304959/sv/)\n"
@@ -20,238 +20,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: sv\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-
-#: src/rutinkompis/main.py:83 src/rutinkompis/main.py:84
-msgid "Welcome"
-msgstr "Välkommen"
-
-#: src/rutinkompis/main.py:89 src/rutinkompis/main.py:90
-msgid "Welcome to Rutinkompis"
-msgstr "Välkommen till Rutinkompis"
-
-#: src/rutinkompis/main.py:91 src/rutinkompis/main.py:92
-msgid ""
-"Follow step-by-step routines with pictures.\n"
-"\n"
-"✓ Visual guides for daily tasks\n"
-"✓ Check off each step as you go\n"
-"✓ Search 13,000+ ARASAAC pictograms\n"
-"✓ Customizable routines"
-msgstr ""
-"Följ steg-för-steg-rutiner med bilder.\n"
-"\n"
-"✓ Visuella guider för dagliga uppgifter\n"
-"✓ Markera varje steg efterhand\n"
-"✓ Sök bland över 13 000 ARASAAC-piktogram\n"
-"✓ Anpassningsbara rutiner"
-
-#: src/rutinkompis/main.py:98 src/rutinkompis/main.py:99
-msgid "Get Started"
-msgstr "Kom igång"
-
-#: src/rutinkompis/main.py:123 src/rutinkompis/window.py:72
-#: src/rutinkompis/window.py:73 src/rutinkompis/main.py:124
-msgid "Preferences"
-msgstr "Inställningar"
-
-#: src/rutinkompis/main.py:126 src/rutinkompis/main.py:127
-msgid "General"
-msgstr "Allmänt"
-
-#: src/rutinkompis/main.py:130 src/rutinkompis/main.py:131
-msgid "Appearance"
-msgstr "Utseende"
-
-#: src/rutinkompis/main.py:133 src/rutinkompis/main.py:134
-msgid "Theme"
-msgstr "Tema"
-
-#: src/rutinkompis/main.py:134 src/rutinkompis/main.py:135
-msgid "Choose light, dark, or follow system"
-msgstr "Välj ljust, mörkt eller följ systemet"
-
-#: src/rutinkompis/main.py:136 src/rutinkompis/main.py:137
-msgid "System"
-msgstr "System"
-
-#: src/rutinkompis/main.py:136 src/rutinkompis/main.py:137
-msgid "Light"
-msgstr "Ljust"
-
-#: src/rutinkompis/main.py:136 src/rutinkompis/main.py:137
-msgid "Dark"
-msgstr "Mörkt"
-
-#: src/rutinkompis/main.py:144 src/rutinkompis/main.py:145
-msgid "Icon Size"
-msgstr "Ikonstorlek"
-
-#: src/rutinkompis/main.py:145 src/rutinkompis/main.py:146
-msgid "Size of pictogram icons"
-msgstr "Storlek på piktogramikoner"
-
-#: src/rutinkompis/main.py:147 src/rutinkompis/main.py:148
-msgid "Small"
-msgstr "Små"
-
-#: src/rutinkompis/main.py:147 src/rutinkompis/main.py:148
-msgid "Medium"
-msgstr "Medel"
-
-#: src/rutinkompis/main.py:147 src/rutinkompis/main.py:148
-msgid "Large"
-msgstr "Stora"
-
-#: src/rutinkompis/main.py:159 src/rutinkompis/main.py:160
-msgid "Advanced"
-msgstr "Avancerat"
-
-#: src/rutinkompis/main.py:163 src/rutinkompis/main.py:164
-msgid "ARASAAC Cache"
-msgstr "ARASAAC-cache"
-
-#: src/rutinkompis/main.py:168 src/rutinkompis/main.py:169
-msgid "Cached pictograms"
-msgstr "Cachade piktogram"
-
-#: src/rutinkompis/main.py:170 src/rutinkompis/main.py:171
-msgid "Clear"
-msgstr "Töm"
-
-#: src/rutinkompis/main.py:179 src/rutinkompis/main.py:180
-msgid "Developer"
-msgstr "Utvecklare"
-
-#: src/rutinkompis/main.py:181 src/rutinkompis/main.py:182
-msgid "Debug mode"
-msgstr "Felsökningsläge"
-
-#: src/rutinkompis/main.py:182 src/rutinkompis/main.py:183
-msgid "Show extra logging in terminal"
-msgstr "Visa extra loggning i terminal"
-
-#: src/rutinkompis/main.py:210 src/rutinkompis/main.py:211
-msgid "Cleared"
-msgstr "Tömdes"
-
-#: src/rutinkompis/main.py:220 src/rutinkompis/window.py:43
-#: src/rutinkompis/main.py:231
-msgid "Rutinkompis"
-msgstr "Rutinkompis"
-
-#: src/rutinkompis/main.py:231 src/rutinkompis/main.py:242
-msgid "ARASAAC pictograms (https://arasaac.org)"
-msgstr "ARASAAC-piktogram (https://arasaac.org)"
-
-#: src/rutinkompis/main.py:234 src/rutinkompis/main.py:245
-msgid ""
-"Step-by-step visual routine guides with pictogram support for children with autism and language disorders.\n"
-"\n"
-"Part of the Autismappar suite — free tools for communication and daily structure."
-msgstr ""
-"Steg-för-steg-guider med piktogram för barn med autism och språkstörningar.\n"
-"\n"
-"En del av Autismappar-paketet – gratis verktyg för kommunikation och daglig struktur."
-
-#: src/rutinkompis/main.py:245 src/rutinkompis/main.py:256
-msgid "Autismappar"
-msgstr "Autismappar"
-
-#: src/rutinkompis/window.py:15
-msgid "Morning"
-msgstr "Morgon"
-
-#: src/rutinkompis/window.py:16
-msgid "Wake up"
-msgstr "Vakna"
-
-#: src/rutinkompis/window.py:17
-msgid "Go to toilet"
-msgstr "Gå på toaletten"
-
-#: src/rutinkompis/window.py:18 src/rutinkompis/window.py:27
-msgid "Brush teeth"
-msgstr "Borsta tänder"
-
-#: src/rutinkompis/window.py:19
-msgid "Get dressed"
-msgstr "Klä på sig"
-
-#: src/rutinkompis/window.py:20
-msgid "Eat breakfast"
-msgstr "Äta frukost"
-
-#: src/rutinkompis/window.py:21
-msgid "Pack bag"
-msgstr "Packa väskan"
-
-#: src/rutinkompis/window.py:22
-msgid "Put on shoes"
-msgstr "Ta på sig skor"
-
-#: src/rutinkompis/window.py:24
-msgid "Evening"
-msgstr "Kväll"
-
-#: src/rutinkompis/window.py:25
-msgid "Eat dinner"
-msgstr "Äta middag"
-
-#: src/rutinkompis/window.py:26
-msgid "Take a bath"
-msgstr "Ta ett bad"
-
-#: src/rutinkompis/window.py:28
-msgid "Read a book"
-msgstr "Läsa en bok"
-
-#: src/rutinkompis/window.py:29
-msgid "Go to bed"
-msgstr "Gå till sängs"
-
-#: src/rutinkompis/window.py:31
-msgid "School"
-msgstr "Skola"
-
-#: src/rutinkompis/window.py:32
-msgid "Take out books"
-msgstr "Låna böcker"
-
-#: src/rutinkompis/window.py:33
-msgid "Do exercises"
-msgstr "Gör övningar"
-
-#: src/rutinkompis/window.py:34
-msgid "Ask for help"
-msgstr "Fråga efter hjälp"
-
-#: src/rutinkompis/window.py:35
-msgid "Pack up"
-msgstr "Packa upp"
-
-#: src/rutinkompis/window.py:67
-msgid "Toggle dark/light theme"
-msgstr "Växla mörkt/ljust tema"
-
-#: src/rutinkompis/window.py:73 src/rutinkompis/window.py:74
-msgid "Keyboard Shortcuts"
-msgstr "Tangentbordsgenvägar"
-
-#: src/rutinkompis/window.py:74 src/rutinkompis/window.py:75
-msgid "About Rutinkompis"
-msgstr "Om Rutinkompis"
-
-#: src/rutinkompis/window.py:75 src/rutinkompis/window.py:76
-msgid "Quit"
-msgstr "Avsluta"
-
-#: src/rutinkompis/window.py:219 src/rutinkompis/window.py:220
-msgid "All done! Great job!"
-msgstr "Allt klart! Bra jobbat!"
-
-#: src/rutinkompis/window.py:72 src/rutinkompis/export.py:137
-msgid "Export Routine"
-msgstr "Exportera rutin"
 
 #: src/rutinkompis/export.py:26
 msgid "Step"
@@ -281,6 +49,10 @@ msgstr "Min rutin"
 #, python-format
 msgid "%d min"
 msgstr "%d min"
+
+#: src/rutinkompis/export.py:137 src/rutinkompis/window.py:73
+msgid "Export Routine"
+msgstr "Exportera rutin"
 
 #: src/rutinkompis/export.py:138
 msgid "Choose export format:"
@@ -327,3 +99,265 @@ msgstr "PDF exporterad"
 #: src/rutinkompis/export.py:202
 msgid "PDF export requires pycairo"
 msgstr "PDF-export kräver pycairo"
+
+#: src/rutinkompis/main.py:85
+msgid "Welcome"
+msgstr "Välkommen"
+
+#: src/rutinkompis/main.py:91
+msgid "Welcome to Routine Buddy"
+msgstr "Välkommen till Rutinkompis"
+
+#: src/rutinkompis/main.py:93
+msgid ""
+"Follow step-by-step routines with pictures.\n"
+"\n"
+"✓ Visual guides for daily tasks\n"
+"✓ Check off each step as you go\n"
+"✓ Search 13,000+ ARASAAC pictograms\n"
+"✓ Customizable routines"
+msgstr ""
+"Följ steg-för-steg-rutiner med bilder.\n"
+"\n"
+"✓ Visuella guider för dagliga uppgifter\n"
+"✓ Markera varje steg efterhand\n"
+"✓ Sök bland över 13 000 ARASAAC-piktogram\n"
+"✓ Anpassningsbara rutiner"
+
+#: src/rutinkompis/main.py:100
+msgid "Get Started"
+msgstr "Kom igång"
+
+#: src/rutinkompis/main.py:125 src/rutinkompis/window.py:74
+msgid "Preferences"
+msgstr "Inställningar"
+
+#: src/rutinkompis/main.py:128
+msgid "General"
+msgstr "Allmänt"
+
+#: src/rutinkompis/main.py:132
+msgid "Appearance"
+msgstr "Utseende"
+
+#: src/rutinkompis/main.py:135
+msgid "Theme"
+msgstr "Tema"
+
+#: src/rutinkompis/main.py:136
+msgid "Choose light, dark, or follow system"
+msgstr "Välj ljust, mörkt eller följ systemet"
+
+#: src/rutinkompis/main.py:138
+msgid "System"
+msgstr "System"
+
+#: src/rutinkompis/main.py:138
+msgid "Light"
+msgstr "Ljust"
+
+#: src/rutinkompis/main.py:138
+msgid "Dark"
+msgstr "Mörkt"
+
+#: src/rutinkompis/main.py:146
+msgid "Icon Size"
+msgstr "Ikonstorlek"
+
+#: src/rutinkompis/main.py:147
+msgid "Size of pictogram icons"
+msgstr "Storlek på piktogramikoner"
+
+#: src/rutinkompis/main.py:149
+msgid "Small"
+msgstr "Små"
+
+#: src/rutinkompis/main.py:149
+msgid "Medium"
+msgstr "Medel"
+
+#: src/rutinkompis/main.py:149
+msgid "Large"
+msgstr "Stora"
+
+#: src/rutinkompis/main.py:160
+msgid "Speech"
+msgstr "Tal"
+
+#: src/rutinkompis/main.py:163
+msgid "Speech Engine"
+msgstr "Talmotor"
+
+#: src/rutinkompis/main.py:164
+msgid "Piper gives natural voices, espeak is robotic but lightweight"
+msgstr "Piper ger naturliga röster, espeak är robotlik men lättviktig."
+
+#: src/rutinkompis/main.py:166
+msgid "Automatic"
+msgstr "Automatiskt"
+
+#: src/rutinkompis/main.py:166
+msgid "Piper (natural)"
+msgstr "Piper (naturlig)"
+
+#: src/rutinkompis/main.py:166
+msgid "espeak-ng (robotic)"
+msgstr "espeak-ng (robotlik)"
+
+#: src/rutinkompis/main.py:174
+msgid "Speech Speed"
+msgstr "Talhastighet"
+
+#: src/rutinkompis/main.py:175
+msgid "Slower speech can be easier to understand"
+msgstr "Långsammare tal kan vara lättare att förstå"
+
+#: src/rutinkompis/main.py:191
+msgid "Advanced"
+msgstr "Avancerat"
+
+#: src/rutinkompis/main.py:195
+msgid "ARASAAC Cache"
+msgstr "ARASAAC-cache"
+
+#: src/rutinkompis/main.py:200
+msgid "Cached pictograms"
+msgstr "Cachade piktogram"
+
+#: src/rutinkompis/main.py:202
+msgid "Clear"
+msgstr "Töm"
+
+#: src/rutinkompis/main.py:211
+msgid "Developer"
+msgstr "Utvecklare"
+
+#: src/rutinkompis/main.py:213
+msgid "Debug mode"
+msgstr "Felsökningsläge"
+
+#: src/rutinkompis/main.py:214
+msgid "Show extra logging in terminal"
+msgstr "Visa extra loggning i terminal"
+
+#: src/rutinkompis/main.py:242
+msgid "Cleared"
+msgstr "Tömdes"
+
+#: src/rutinkompis/main.py:262 src/rutinkompis/window.py:44
+msgid "Routine Buddy"
+msgstr "Rutinkompis"
+
+#: src/rutinkompis/main.py:273
+msgid "ARASAAC pictograms (https://arasaac.org)"
+msgstr "ARASAAC-piktogram (https://arasaac.org)"
+
+#: src/rutinkompis/main.py:276
+msgid ""
+"Step-by-step visual routine guides with pictogram support for children with autism and language disorders.\n"
+"\n"
+"Part of the Autismappar suite — free tools for communication and daily structure."
+msgstr ""
+"Steg-för-steg-guider med piktogram för barn med autism och språkstörningar.\n"
+"\n"
+"En del av Autismappar-paketet – gratis verktyg för kommunikation och daglig struktur."
+
+#: src/rutinkompis/main.py:288
+msgid "Autismappar"
+msgstr "Autismappar"
+
+#: src/rutinkompis/window.py:16
+msgid "Morning"
+msgstr "Morgon"
+
+#: src/rutinkompis/window.py:17
+msgid "Wake up"
+msgstr "Vakna"
+
+#: src/rutinkompis/window.py:18
+msgid "Go to toilet"
+msgstr "Gå på toaletten"
+
+#: src/rutinkompis/window.py:19 src/rutinkompis/window.py:28
+msgid "Brush teeth"
+msgstr "Borsta tänder"
+
+#: src/rutinkompis/window.py:20
+msgid "Get dressed"
+msgstr "Klä på sig"
+
+#: src/rutinkompis/window.py:21
+msgid "Eat breakfast"
+msgstr "Äta frukost"
+
+#: src/rutinkompis/window.py:22
+msgid "Pack bag"
+msgstr "Packa väskan"
+
+#: src/rutinkompis/window.py:23
+msgid "Put on shoes"
+msgstr "Ta på sig skor"
+
+#: src/rutinkompis/window.py:25
+msgid "Evening"
+msgstr "Kväll"
+
+#: src/rutinkompis/window.py:26
+msgid "Eat dinner"
+msgstr "Äta middag"
+
+#: src/rutinkompis/window.py:27
+msgid "Take a bath"
+msgstr "Ta ett bad"
+
+#: src/rutinkompis/window.py:29
+msgid "Read a book"
+msgstr "Läsa en bok"
+
+#: src/rutinkompis/window.py:30
+msgid "Go to bed"
+msgstr "Gå till sängs"
+
+#: src/rutinkompis/window.py:32
+msgid "School"
+msgstr "Skola"
+
+#: src/rutinkompis/window.py:33
+msgid "Take out books"
+msgstr "Låna böcker"
+
+#: src/rutinkompis/window.py:34
+msgid "Do exercises"
+msgstr "Gör övningar"
+
+#: src/rutinkompis/window.py:35
+msgid "Ask for help"
+msgstr "Fråga efter hjälp"
+
+#: src/rutinkompis/window.py:36
+msgid "Pack up"
+msgstr "Packa upp"
+
+#: src/rutinkompis/window.py:68
+msgid "Toggle dark/light theme"
+msgstr "Växla mörkt/ljust tema"
+
+#: src/rutinkompis/window.py:75
+msgid "Keyboard Shortcuts"
+msgstr "Tangentbordsgenvägar"
+
+#: src/rutinkompis/window.py:76
+msgid "About Routine Buddy"
+msgstr "Om Rutinkompis"
+
+#: src/rutinkompis/window.py:77
+msgid "Quit"
+msgstr "Avsluta"
+
+#: src/rutinkompis/window.py:195
+msgid "Read aloud"
+msgstr "Läs högt"
+
+#: src/rutinkompis/window.py:228
+msgid "All done! Great job!"
+msgstr "Allt klart! Bra jobbat!"
