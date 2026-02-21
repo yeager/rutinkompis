@@ -88,7 +88,7 @@ class RutinkompisApp(Adw.Application):
 
         page = Adw.StatusPage()
         page.set_icon_name("rutinkompis")
-        page.set_title(_("Welcome to Rutinkompis"))
+        page.set_title(_("Welcome to Routine Buddy"))
         page.set_description(_(
             "Follow step-by-step routines with pictures.\n\n"
             "✓ Visual guides for daily tasks\n"
@@ -259,7 +259,7 @@ class RutinkompisApp(Adw.Application):
 
     def _on_about(self, *_):
         about = Adw.AboutDialog(
-            application_name=_("Rutinkompis"),
+            application_name=_("Routine Buddy"),
             application_icon="rutinkompis",
             version=__version__,
             developer_name="Daniel Nylander",
