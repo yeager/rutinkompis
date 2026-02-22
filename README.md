@@ -1,12 +1,12 @@
-# Rutinkompis
+# Routine Buddy
 
-Visuella steg-för-steg-rutiner med checklistor och ARASAAC-piktogram.
+Visual step-by-step routines with checklists and ARASAAC pictograms.
 
-GTK4/Adwaita · Python · v0.3.3 · 80 översättningsbara strängar
+GTK4/Adwaita · Python · v0.3.3 · 80 translatable strings
 
-Del av [Autismappar](https://autismappar.se) — fria verktyg för barn med autism, språkstörning och ADHD.
+Part of [Autismappar](https://autismappar.se) — free tools for children with autism, language disorders and ADHD.
 
-## Installation
+## Install
 
 ### Ubuntu / Debian
 ```bash
@@ -20,10 +20,10 @@ sudo dnf install rutinkompis
 ```
 Repo: [yeager/rpm-repo](https://github.com/yeager/rpm-repo)
 
-## Översättning
+## Translation
 
-Översätts via [Transifex](https://app.transifex.com/danielnylander/rutinkompis/). 11 språk.
+Translated via [Transifex](https://app.transifex.com/danielnylander/rutinkompis/). 11 languages.
 
-## Licens
+## License
 
 GPL-3.0-or-later · Daniel Nylander <daniel@danielnylander.se>
