@@ -122,7 +122,7 @@ class RutinkompisApp(Adw.Application):
 
     # ── Preferences ──────────────────────────────────────────
 
-    def _on_preferences(self, *_):
+    def _on_preferences(self, *_args):
         prefs = Adw.PreferencesDialog()
         prefs.set_title(_("Preferences"))
 
@@ -249,7 +249,7 @@ class RutinkompisApp(Adw.Application):
 
     # ── Export ────────────────────────────────────────────────
 
-    def _on_export(self, *_):
+    def _on_export(self, *_args):
         win = self.props.active_window
         if win and hasattr(win, 'steps'):
             from rutinkompis.export import show_export_dialog
@@ -259,7 +259,7 @@ class RutinkompisApp(Adw.Application):
 
     # ── About ────────────────────────────────────────────────
 
-    def _on_about(self, *_):
+    def _on_about(self, *_args):
         about = Adw.AboutDialog(
             application_name=_("Routine Buddy"),
             application_icon="rutinkompis",
@@ -297,7 +297,7 @@ class RutinkompisApp(Adw.Application):
 
     # ── Shortcuts ────────────────────────────────────────────
 
-    def _on_shortcuts(self, *_):
+    def _on_shortcuts(self, *_args):
         builder = Gtk.Builder()
         builder.add_from_string('''
         <interface>
