@@ -7,4 +7,5 @@ Exec=rutinkompis
 Icon=se.danielnylander.rutinkompis
 Terminal=false
 Type=Application
+StartupWMClass=se.yeager.rutinkompis
 Categories=Education;Accessibility;
