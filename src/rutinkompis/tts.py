@@ -18,6 +18,18 @@ import tempfile
 import threading
 from pathlib import Path
 
+
+def get_current_lang():
+    """Get current UI language code for TTS."""
+    import locale as _locale
+    lang = _locale.getlocale()[0] or "sv_SE"
+    if lang.startswith("sv"):
+        return "sv"
+    elif lang.startswith("en"):
+        return "en"
+    return "sv"  # default fallback
+
+
 # Piper voice models
 PIPER_VOICES = {
     "sv": [

@@ -7,7 +7,7 @@ gi.require_version('GdkPixbuf', '2.0')
 from gi.repository import Gtk, Adw, Gio, GLib, GdkPixbuf
 
 from . import arasaac
-from .tts import speak
+from .tts import speak, get_current_lang
 
 _ = gettext.gettext
 
@@ -193,7 +193,7 @@ class RutinkompisWindow(Adw.ApplicationWindow):
             speak_btn.add_css_class("flat")
             speak_btn.add_css_class("circular")
             speak_btn.set_tooltip_text(_("Read aloud"))
-            speak_btn.connect("clicked", lambda _, n=name: speak(n, "sv"))
+            speak_btn.connect("clicked", lambda _, n=name: speak(n, get_current_lang()))
             row.append(speak_btn)
 
             check = Gtk.CheckButton()
