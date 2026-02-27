@@ -1,3 +1,5 @@
+> **⚠️ This app has been migrated to the Autismappar PWA at https://autismappar.se**
+
 # Rutinkompis
 
 Step-by-step visual routine guides with ARASAAC pictograms for children with autism.
@@ -27,4 +29,3 @@ Daniel Nylander — [danielnylander.se](https://danielnylander.se)
 ## Screenshots
 
 ![rutinkompis](screenshots/rutinkompis.png)
-
